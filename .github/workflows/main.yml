@@ -13,5 +13,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.11
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: 'rocky-cove-43660'
-          heroku_email: 'bkapsalis@gmail.com'
+          heroku_app_name: rocky-cove-43660
+          heroku_email: bkapsalis@gmail.com
